@@ -28,7 +28,7 @@ export function loginController(req: Request, res: Response) {
       expiresIn: '30m',
     }
   );
-  if (phonenumber === '09152189504' && password === 'kashmar552') {
+  if (phonenumber === '09151111111' && password === 'somepassword') {
     res.cookie('access_token', accessToken, {
       httpOnly: true,
       expires: new Date(Date.now() + 900000),
